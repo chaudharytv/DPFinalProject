@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #292b2c;
+    text-align: center;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #f0ad4e;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #5bc0de;
+}
+
+/* Text styles */
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* List styles */
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin-bottom: .5rem;
+}
+
+/* Image styles */
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    display: inline-block;
+    background-color: #336699;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    transform: translateY(0);
+    box-shadow: none;
+  }
+
+  a {
+    font-size: 1.2em; /* increase font size */
+    color: yellow; /* set link color to blue */
+    text-decoration: none; /* remove underline */
+  }
+  
+  a:hover {
+    color: red; /* change color on hover */
+  }
+  
+  a:visited {
+    color: yellow; /* set color for visited link */
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 70%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  th{
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+    
+  }
+
+
+ 
+  

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/style.css') }}">
+    <script type="text/javascript" src="{{ url_for('static', path='/js/script.js') }}"></script>
+</head>
+<body>
+    <h1>{{ message }}</h1>
+
+    <p>This page displays some basic information about the BigMart Sales dataset.</p>
+
+    <ul>
+        <li>Number of rows: {{ num_rows }}</li>
+        <li>Number of columns: {{ num_cols }}</li>
+    </ul>
+    <table>
+        <tr>
+            <th>Variable</th>
+            <th>Data Type</th>
+            <th>Description</th>
+            <th>Range (Max - Min)</th>
+        </tr>
+        <tr>
+            <td>Item_Identifier</td>
+            <td>Qualitative (N, O)</td>
+            <td>Unique product ID</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Item_Weight</td>
+            <td>Quantitative (I, R)</td>
+            <td>Weight of product</td>
+            <td>(21.35 – 4.555)</td>
+        </tr>
+        <tr>
+            <td>Item_Fat_Content</td>
+            <td>Qualitative (N, O)</td>
+            <td>Checks the Concentration of fat in the product</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Item_Visibility</td>
+            <td>Quantitative (I, R)</td>
+            <td>The % of total display area of all similar products in a store</td>
+            <td>(0.33 – 0)</td>
+        </tr>
+        <tr>
+            <td>Item_Type</td>
+            <td>Qualitative (N, O)</td>
+            <td>Product Category</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Item_MRP</td>
+            <td>Quantitative (I, R)</td>
+            <td>Maximum Retail Price for a Product</td>
+            <td>(266.88 – 31.29)</td>
+        </tr>
+        <tr>
+            <td>Outlet_Identifier</td>
+            <td>Qualitative (N, O)</td>
+            <td>Store ID</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Outlet_Establishment_Year</td>
+            <td>Quantitative (I, R)</td>
+            <td>The year in which store was established</td>
+            <td>(2009 – 1985)</td>
+        </tr>
+        <tr>
+            <td>Outlet_Size</td>
+            <td>Qualitative (N, O)</td>
+            <td>The size of the store (Area Size Category)</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Outlet_Location_Type</td>
+            <td>Qualitative (N, O)</td>
+            <td>In Terms of city Tiers (Size)</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Outlet_Type</td>
+            <td>Qualitative (N, O)</td>
+            <td>Grocery store or a type of supermarket</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Item_Outlet_Sales</td>
+            <td>Quantitative (I, R)</td>
+            <td>Sales of the product In the Specific outlet</td>
+            <td>(13087 – 33.29)</td>
+          </tr>
+      </table>
+
+    <p>For more information on the dataset, see the <a href="https://www.kaggle.com/datasets/brijbhushannanda1979/bigmart-sales-data">Kaggle</a>.</p>
+
+    <button onclick="location.href='/dashboard'">Go to Dashboard</button>
+
+
+</body>
+</html>
+
