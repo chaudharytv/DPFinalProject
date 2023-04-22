@@ -14,4 +14,4 @@ Work Contribution: Acquired data, built database and aided in creating visualiza
 4. Mustafa– Business Analyst
 Work Contribution: Built documentation for proposal and aided DA in visualizations
 
-Web APP accessible at : http://http://35.182.254.173
+Web APP accessible at : http://35.182.254.173
